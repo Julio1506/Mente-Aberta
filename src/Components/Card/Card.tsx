@@ -1,6 +1,13 @@
+import type { ReactNode } from 'react'
 import { Icon, StyledCard } from './styles'
 
-export const Card = ({title, description, children }) => {
+type CardProps = {
+  title: string
+  description: string
+  children?: ReactNode
+}
+
+export const Card = ({title, description, children }: CardProps) => {
   return (
     <StyledCard>
       <Icon>{children}</Icon>

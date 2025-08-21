@@ -1,6 +1,10 @@
 import { StyledArticle } from './styles'
 
-export const Article = ({title, description}) => {
+type ArticleProps = {
+  title: string
+  description: string
+}
+export const Article = ({title, description}: ArticleProps) => {
   return (
     <StyledArticle>
       <h3>{title}</h3>

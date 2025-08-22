@@ -7,7 +7,7 @@ export const StyledCard = styled.div`
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: transform 2s ease;
+  transition: transform 0.3s ease;
 
   &:hover {
     transform: translateY(-5px);

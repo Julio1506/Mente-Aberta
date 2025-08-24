@@ -6,7 +6,7 @@ export const ArticleList = () => {
     <StyledArticleList>
       <Article
         title="Fake news sobre vacinas: Entenda os perigos da desinformação."
-        description="Pesquisadores e orgãos de saúde todo o mundo reforçam que as vacinas COVID-19 são seguras e eficazes."
+        description="Pesquisadores e orgãos de saúde de todo o mundo reforçam que as vacinas COVID-19 são seguras e eficazes."
       />
       <Article
         title="Preconceito e Desinformação são desafios para a busca de cuidados mentais"
